@@ -1,0 +1,48 @@
+{
+    "title": "Movie",
+    "entity": "Movie",
+    "api": {
+      "url": "http://www.angular.at/api/movie"
+    },
+    "filter": [
+      "id",
+      "name",
+      "code"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "isId": true,
+        "type": "number",
+        "label": "Id",
+        "default": 0,
+        "control": "text"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "label": "Name"
+      },
+      {
+        "name": "release",
+        "type": "date",
+        "label": "Date"
+      },
+      {
+        "name": "director",
+        "type": "string",
+        "label": "Director"
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "label": "Address"
+      },
+      {
+        "name": "date",
+        "type": "date",
+        "control": "date",
+        "label": "Date"
+      }
+    ]
+}
